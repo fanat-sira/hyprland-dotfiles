@@ -1,0 +1,19 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.backup
+.env
+.env.*
+**/secrets.*
+**/credentials*
+**/token*
+**/id_*
+**/known_hosts
+**/fish_variables
+**/setup-wizard.lock
+
+# Git identity belongs to each user, never to the shared snapshot.
+/home/.gitconfig
+
+/.private/

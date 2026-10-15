@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -o pipefail
+
+geometry="$(slurp)" || exit 0
+
+grim -g "$geometry" - \
+    | tesseract stdin stdout -l rus+eng 2>/dev/null \
+    | wl-copy

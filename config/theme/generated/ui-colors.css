@@ -1,0 +1,33 @@
+/* Generated from ~/.config/theme/palette.sh by theme/apply.sh */
+@define-color bg0 #fafaf9;
+@define-color bg1 #eeeeec;
+@define-color bg2 #e8dcdf;
+@define-color bg3 #aaaaaa;
+@define-color bg4 #888888;
+
+@define-color text #555555;
+@define-color text2 #606060;
+@define-color text3 #747474;
+@define-color text_disabled #888888;
+
+@define-color primary #b7838e;
+@define-color primary_dark #606060;
+@define-color primary_soft #c59aa3;
+@define-color accent_glow #c59aa3;
+@define-color accent_glow_soft rgba(232, 220, 223, 0.80);
+@define-color neutral_light #eeeeec;
+@define-color neutral_mid #aaaaaa;
+@define-color neutral_dark #888888;
+@define-color success #747474;
+@define-color warning #888888;
+@define-color error #b7838e;
+
+@define-color accent #b7838e;
+@define-color accent2 #c59aa3;
+@define-color txt #555555;
+@define-color txt2 #606060;
+@define-color bg #eeeeec;
+
+@define-color border #b7838e;
+@define-color border_active #c59aa3;
+@define-color urgent #888888;

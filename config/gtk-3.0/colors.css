@@ -1,0 +1,13 @@
+/* Shared desktop palette. */
+@import "../theme/generated/ui-colors.css";
+
+@define-color theme_bg_color @bg0;
+@define-color theme_fg_color @text;
+@define-color theme_base_color @bg1;
+@define-color theme_text_color @text;
+@define-color theme_selected_bg_color @primary;
+@define-color theme_selected_fg_color @bg0;
+@define-color borders @bg3;
+@define-color warning_color @warning;
+@define-color error_color @error;
+@define-color success_color @success;

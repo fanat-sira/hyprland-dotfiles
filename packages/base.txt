@@ -1,0 +1,9 @@
+bash
+coreutils
+curl
+findutils
+fontconfig
+git
+grep
+sed
+util-linux

@@ -1,0 +1,2 @@
+-- Hyprland chooses an available monitor automatically on a new machine.
+-- Add hl.monitor() and workspace rules here after checking hyprctl monitors.

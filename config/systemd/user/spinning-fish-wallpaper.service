@@ -1,0 +1,12 @@
+[Unit]
+Description=Spinning fish live wallpaper
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.config/spinning-fish-wallpaper/spinning-fish-wallpaper
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

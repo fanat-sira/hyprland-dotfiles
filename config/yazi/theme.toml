@@ -1,0 +1,90 @@
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+[mgr]
+cwd = { fg = "#C59AA3", bold = true }
+find_keyword = { fg = "#C59AA3", bold = true, italic = true, underline = true }
+find_position = { fg = "#FAFAF9", bg = "#C59AA3", bold = true, italic = true }
+symlink_target = { fg = "#747474", italic = true }
+marker_copied = { fg = "#B7838E", bg = "#B7838E" }
+marker_cut = { fg = "#B7838E", bg = "#B7838E" }
+marker_marked = { fg = "#C59AA3", bg = "#C59AA3" }
+marker_selected = { fg = "#C59AA3", bg = "#C59AA3" }
+count_copied = { fg = "#FAFAF9", bg = "#B7838E" }
+count_cut = { fg = "#555555", bg = "#B7838E" }
+count_selected = { fg = "#FAFAF9", bg = "#C59AA3" }
+border_symbol = "│"
+border_style = { fg = "#B7838E" }
+
+[tabs]
+active = { fg = "#FAFAF9", bg = "#C59AA3", bold = true }
+inactive = { fg = "#606060", bg = "#EEEEEC" }
+
+[mode]
+normal_main = { fg = "#FAFAF9", bg = "#B7838E", bold = true }
+normal_alt = { fg = "#555555", bg = "#E8DCDF" }
+select_main = { fg = "#FAFAF9", bg = "#C59AA3", bold = true }
+select_alt = { fg = "#555555", bg = "#AAAAAA" }
+unset_main = { fg = "#555555", bg = "#B7838E", bold = true }
+unset_alt = { fg = "#555555", bg = "#AAAAAA" }
+
+[indicator]
+parent = { fg = "#747474", bg = "#EEEEEC" }
+current = { fg = "#FAFAF9", bg = "#C59AA3", bold = true }
+preview = { fg = "#C59AA3", underline = true }
+
+[status]
+overall = { fg = "#555555", bg = "#EEEEEC" }
+perm_sep = { fg = "#888888" }
+perm_type = { fg = "#747474" }
+perm_read = { fg = "#C59AA3" }
+perm_write = { fg = "#888888" }
+perm_exec = { fg = "#B7838E" }
+progress_label = { fg = "#606060", bold = true }
+progress_normal = { fg = "#FAFAF9", bg = "#B7838E" }
+progress_error = { fg = "#555555", bg = "#B7838E" }
+
+[which]
+mask = { bg = "#FAFAF9" }
+cand = { fg = "#C59AA3" }
+rest = { fg = "#747474" }
+desc = { fg = "#C59AA3" }
+separator_style = { fg = "#AAAAAA" }
+
+[confirm]
+border = { fg = "#B7838E" }
+title = { fg = "#C59AA3" }
+btn_yes = { fg = "#FAFAF9", bg = "#B7838E", bold = true }
+btn_no = { fg = "#555555", bg = "#AAAAAA" }
+
+[spot]
+border = { fg = "#B7838E" }
+title = { fg = "#C59AA3" }
+tbl_col = { fg = "#C59AA3" }
+tbl_cell = { fg = "#FAFAF9", bg = "#C59AA3" }
+
+[notify]
+title_info = { fg = "#C59AA3" }
+title_warn = { fg = "#888888" }
+title_error = { fg = "#B7838E" }
+
+[pick]
+border = { fg = "#B7838E" }
+active = { fg = "#C59AA3", bold = true }
+
+[input]
+border = { fg = "#B7838E" }
+selected = { fg = "#555555", bg = "#AAAAAA" }
+
+[cmp]
+border = { fg = "#B7838E" }
+active = { fg = "#FAFAF9", bg = "#C59AA3" }
+
+[tasks]
+border = { fg = "#B7838E" }
+hovered = { fg = "#C59AA3", bold = true }
+
+[help]
+on = { fg = "#C59AA3" }
+run = { fg = "#C59AA3" }
+hovered = { fg = "#FAFAF9", bg = "#C59AA3", bold = true }
+footer = { fg = "#555555", bg = "#EEEEEC" }

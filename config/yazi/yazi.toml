@@ -1,0 +1,39 @@
+[opener]
+# Edit files
+edit = [
+	{ run = '${EDITOR:-nvim} "$@"', desc = "Default Editor", block = true, for = "unix" },
+]
+
+# Open with default system handler
+open = [
+	{ run = 'xdg-open "$1"',                desc = "Open (System Default)", for = "linux" },
+]
+
+# Reveal in file manager
+reveal = [
+	{ run = 'xdg-open "$(dirname "$1")"',           desc = "Reveal", for = "linux" },
+]
+
+# Extract archives
+extract = [
+	{ run = 'ya pub extract --list "$@"', desc = "Extract here", for = "unix" },
+]
+
+
+# Open with specific apps depending on file type
+open_with = [
+	# Code files
+	{ run = 'nvim "$@"', block = true, desc = "Neovim", for = "unix" },
+	{ run = 'code "$@"', orphan = true, desc = "VS Code", for = "unix" },
+
+	# Images
+	{ run = 'xdg-open "$@"', orphan = true, desc = "Image Viewer", for = "linux", for_file = "*.png;*.jpg;*.jpeg;*.gif;*.webp;*.bmp" },
+
+	# Fallback system default
+	{ run = 'xdg-open "$@"', orphan = true, desc = "System Default", for = "linux" },
+]
+
+[pick]
+open_title  = "Open with:"
+open_origin = "hovered"
+open_offset = [ 0, 1, 50, 7 ]

@@ -1,0 +1,11 @@
+[Unit]
+Description=Antigravity Unlocker local proxy
+After=network-online.target
+
+[Service]
+ExecStart=@DOTFILES_HOME@/.local/share/agunlocker/ag_proxy --proxy
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
